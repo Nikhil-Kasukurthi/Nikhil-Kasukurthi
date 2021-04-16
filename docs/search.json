@@ -5,15 +5,15 @@
       "title": "About Me",
       "description": "Data Scientist with a love for engineering.",
       "author": [],
-      "contents": "\nI have been a data scientist with SigTuple for the last three years.\n\n\n\n",
-      "last_modified": "2021-04-16T10:44:03+05:30"
+      "contents": "\n\n\nShow code\n\nlibrary(knitr)\ninclude_graphics(\"images/experience.png\")\n\n\n\n\nFigure 1: Experience to date\n\n\n\nMost recently, I have joined the ISBLab at NCBS under the guidance of Dr. Shruthi Viswanath. I have been working on the generating localised precision score for integrative models.\nI have worked on Computer Vision and deep learning for the last three years. During this time I have published multiple papers as well as contributed towards patents at SigTuple.\ncontact: nikhil[dot]kasukurthi[at]gmail[dot]com\n\n\n\n",
+      "last_modified": "2021-04-16T23:50:58+05:30"
     },
     {
       "path": "index.html",
       "title": "nikhil-kasukurthi",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-16T23:21:16+05:30"
+      "last_modified": "2021-04-16T23:29:35+05:30"
     },
     {
       "path": "publications.html",

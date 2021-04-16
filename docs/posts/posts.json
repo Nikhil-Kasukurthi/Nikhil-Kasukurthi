@@ -1,6 +1,6 @@
 [
   {
-    "path": "posts/welcome/",
+    "path": "posts/self_supervised/",
     "title": "A code first guide to self-supervised learning",
     "description": "With PyTorch-Lightning Bolts we build a practical use case for self-supervised learning.",
     "author": [
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-16T23:15:16+05:30",
+    "last_modified": "2021-04-16T23:29:35+05:30",
     "input_file": {}
   }
 ]
