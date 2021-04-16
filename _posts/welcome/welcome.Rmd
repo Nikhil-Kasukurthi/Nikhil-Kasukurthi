@@ -1,0 +1,15 @@
+---
+title: "A code first guide to self-supervised learning"
+description: |
+  With PyTorch-Lightning Bolts we build a practical use case for self-supervised learning.
+author:
+  - name: Nikhil Kasukurthi
+    url: https://example.com/norajones
+    #affiliation: Spacely Sprockets
+    #affiliation_url: https://example.com/spacelysprokets
+date: 04-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+

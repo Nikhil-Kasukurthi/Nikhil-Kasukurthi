@@ -1,0 +1,6 @@
+---
+title: "About Me"
+description: |
+  Data Scientist with a love for engineering.
+---
+I have been a data scientist with SigTuple for the last three years. 

@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Me",
+      "description": "Data Scientist with a love for engineering.",
+      "author": [],
+      "contents": "\nI have been a data scientist with SigTuple for the last three years.\n\n\n\n",
+      "last_modified": "2021-04-16T10:44:03+05:30"
+    },
+    {
+      "path": "index.html",
+      "title": "nikhil-kasukurthi",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-16T09:42:58+05:30"
+    },
+    {
+      "path": "publications.html",
+      "title": "Publications",
+      "author": [],
+      "contents": "\nConferences\nIEEE ISBI 2019 - Deep learning for weak supervision of diabetic retinopathy abnormalities Maroof Ahmad, Nikhil Kasukurthi, Harshit Pande\nIEEE ISBI 2019 - Dynamic region proposal networks for semantic segmentation in automated glaucoma screening Shivam Shah, Nikhil Kasukurthi, Harshit Pande\n\n\n\n",
+      "last_modified": "2021-04-16T10:39:16+05:30"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
