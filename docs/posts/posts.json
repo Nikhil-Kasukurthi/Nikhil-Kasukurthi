@@ -2,7 +2,7 @@
   {
     "path": "posts/welcome/",
     "title": "A code first guide to self-supervised learning",
-    "description": "With PyTorch-Lightning Bolts we build on a practical example for self-supervised learning.",
+    "description": "With PyTorch-Lightning Bolts we build a practical use case for self-supervised learning.",
     "author": [
       {
         "name": "Nikhil Kasukurthi",
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-16T10:47:26+05:30",
+    "last_modified": "2021-04-16T23:15:15+05:30",
     "input_file": "welcome.utf8.md"
   }
 ]
