@@ -7,22 +7,14 @@
     <description>Data Scientist III at SigTuple.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>When and When not.</title>
+      <title>Learning to Rank in the era of transformers</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
-      <link>https://beta.rstudioconnect.com/content/11424/posts/when_and_when_not</link>
-      <description>A brief on the right machine learning model to use in different scenarios.</description>
-      <guid>https://beta.rstudioconnect.com/content/11424/posts/when_and_when_not</guid>
-      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A code first guide to SwAV self-supervised learning</title>
-      <dc:creator>Nikhil Kasukurthi</dc:creator>
-      <link>https://beta.rstudioconnect.com/content/11424/posts/self_supervised</link>
-      <description>With PyTorch-Lightning Bolts we build a practical use case for self-supervised learning.</description>
-      <guid>https://beta.rstudioconnect.com/content/11424/posts/self_supervised</guid>
-      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</link>
+      <description>With the advent of advances in NLP, Ranking of search results is increasingly a NLP problem. This post will give an insight into basics as well as the most recent advances.</description>
+      <guid>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</guid>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
