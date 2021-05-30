@@ -6,14 +6,32 @@
       "description": "Data Scientist with a love for engineering.",
       "author": [],
       "contents": "\n\n\nShow code\n\nlibrary(knitr)\ninclude_graphics(\"images/experience.png\")\n\n\n\n\nFigure 1: Experience to date\n\n\n\nExperience to date\nMost recently, I have joined the ISBLab at NCBS under the guidance of Dr. Shruthi Viswanath. I have been working on the generating localised precision score for integrative models.\nI have worked on Computer Vision and deep learning for the last three years. During this time I have published multiple papers as well as contributed towards patents at SigTuple.\ncontact: nikhil[dot]kasukurthi[at]gmail[dot]com\n\n\n\n",
-      "last_modified": "2021-04-17T11:14:19+05:30"
+      "last_modified": "2021-05-30T20:33:40+05:30"
     },
     {
       "path": "index.html",
       "title": "nikhil-kasukurthi",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-16T23:29:35+05:30"
+      "last_modified": "2021-05-30T20:33:40+05:30"
+    },
+    {
+      "path": "post_questions_k8s_docker.html",
+      "title": "Questions about K8s and Docker you are too afraid to ask.",
+      "description": "Most developers learn on the job everyday. Sometimes that also means that we might not always learn it the right way. This post will be an introduction to Docker and K8s. \n",
+      "author": [
+        {
+          "name": "Shubhodeep Mukherjee",
+          "url": "https://example.com/norajones"
+        },
+        {
+          "name": "Nikhil Kasukurthi",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-05-30T20:39:34+05:30"
     },
     {
       "path": "publications.html",
