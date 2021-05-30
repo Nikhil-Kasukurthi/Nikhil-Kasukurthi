@@ -5,8 +5,8 @@ description: |
 author:
   - name: Nikhil Kasukurthi
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+    affiliation: Udaan
+    affiliation_url: https://udaan.com
 date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
@@ -24,7 +24,10 @@ Throughout this post, we will be discussing this from the lens of e-commerce web
 In the figure, you can see it clearly, a user has a rough idea of the products they are looking for.
 This problem can be modeled in the following way.
 
-![introduction](images/introduction.gif)
+```{r fig.cap="Introduction" ,layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/introduction.gif")
+```
 
 <!--The crude problem can be more formally portrayed in two stages. Retrival and Ranking. 
 First, we will be retrieving relevant documents, these can be products (descriptions) , or in case of web-search these are websites.
@@ -98,20 +101,26 @@ But with DSSM, the embeddings for bag-of-words vectors of query and documents ar
 Then the cosine similarity with the query embedding and document is calculated for the semantic relevance score.
 The documents are sorted based on this score.
 
-![dssm-overview](images/Dssm-overview.jpg)
+```{r fig.cap="DSSM Overview", layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/Dssm-overview.jpg")
+```
 
 To train the network, a posterior probability is computed for the document given a query from the semantic relevance score between them through a softmax function.
 Random negative samples are included in a minibatch i.e., a completely irrelevant document and a relevant document are sampled and trained with a cross-entropy loss. 
 
 DSSM also uses word-hashing to tackle the large dimensionaltiy introduced when working with a web-scale vocabulary by using an MLP layer as shown in figure. 
 
-![dssm-arch](images/Dssm-arch.jpg)
+```{r fig.cap="DSSM Architecture", layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/Dssm-arch.jpg")
+```
+
 
 ### DRRM
 TODO 
 
 ### DeText
 DeText is a flexible pipeline that was built to rank LinkedIn's user profiles, jobs and help FAQs based on search queries.
-In the techniques described above, 
 
 ## Acknowledgments {.appendix}
