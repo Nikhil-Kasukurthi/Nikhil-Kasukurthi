@@ -10,13 +10,13 @@ output: distill::distill_article
 # When and When Not
 More often than not, there are multiple ways to solve a problem.
 And most developers and data scientists learn on the job, for the job.
-This means that at times, we might be learning part of a whole, that is pertinient to task at hand.
+This means that at times, we might be learning part of a whole, that is pertinent to task at hand.
 
 Although this approach is quick and gets the job done, sometimes you can't help but wonder, what's the right way of doing this? or what are the alternative ways of doing this. 
 
 https://wawn.io is just the place for that.
 
-Most experienced developers almost always say the largest learnings they had are through their colleauges or friends.
+Most experienced developers almost always say the largest learning they had are through their colleagues or friends.
 https://wawn.io is a place to formalize that knowledge as well.
 The long term plan on different types of posts is something like this. 
 
