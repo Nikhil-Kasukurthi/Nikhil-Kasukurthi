@@ -1,7 +1,7 @@
-name: "Nikhil Kasukurthi"
-title: "Nikhil Kasukurthi"
+name: "WAWN"
+title: "When And When Not"
 description: |
-  Data Scientist III at SigTuple.
+  Exlpore.
 output_dir: "docs"
 navbar:
   right:
