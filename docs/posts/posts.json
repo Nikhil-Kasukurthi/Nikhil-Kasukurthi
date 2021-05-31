@@ -1,19 +1,19 @@
 [
   {
-    "path": "posts/self_supervised/",
-    "title": "A code first guide to SwAV self-supervised learning",
-    "description": "With PyTorch-Lightning Bolts we build a practical use case for self-supervised learning.",
+    "path": "posts/introduction/",
+    "title": "Introduction to wawn.io",
+    "description": "When and When Not",
     "author": [
       {
         "name": "Nikhil Kasukurthi",
-        "url": "https://example.com/norajones"
+        "url": {}
       }
     ],
-    "date": "2021-04-16",
+    "date": "2021-05-31",
     "categories": [],
-    "contents": "\n\nContents\nSelf-Supervised Learning 101\n\nSelf-Supervised Learning 101\nTransformers have transformed the entire field of NLP and more recently, they are making advances in computer vision as well. Currently they are at par with ResNet50. One of the key training paradigms that has enabled this is self-supervised learning.\n\n\n\n",
+    "contents": "\nWhen and When Not\nMore often than not, there are multiple ways to solve a problem. And most developers and data scientists learn on the job, for the job. This means that at times, we might be learning part of a whole, that is pertinent to task at hand.\nAlthough this approach is quick and gets the job done, sometimes you can’t help but wonder, what’s the right way of doing this? or what are the alternative ways of doing this.\nhttps://wawn.io is just the place for that.\nMost experienced developers almost always say the largest learning they had are through their colleagues or friends. https://wawn.io is a place to formalize that knowledge as well. The long term plan on different types of posts is something like this.\nDifferent ways of doing a similar thing.\nLearning the basics, with directions to the resources.\nIn depth surveys of a method, exploring the genesis to the most recent advances of a method.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-17T11:46:18+05:30",
-    "input_file": "self_supervised.utf8.md"
+    "last_modified": "2021-05-31T10:41:30+05:30",
+    "input_file": {}
   }
 ]
