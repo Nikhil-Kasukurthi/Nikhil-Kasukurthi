@@ -1,7 +1,7 @@
-name: "Nikhil Kasukurthi"
-title: "Nikhil Kasukurthi"
+name: "WAWN"
+title: "WAWN"
 description: |
-  Data Scientist III at SigTuple.
+  Exlpore.
 output_dir: "docs"
 navbar:
   right:
@@ -9,6 +9,5 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Publications"
-      href: publications.html
+date: "`r Sys.Date()`"
 output: distill::distill_article
