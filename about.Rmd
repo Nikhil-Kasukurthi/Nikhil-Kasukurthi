@@ -1,18 +1,9 @@
 ---
-title: "About Me"
+title: "About"
 description: |
-  Data Scientist with a love for engineering.
+ When and When Not 
 ---
 
-```{r fig.cap="Experience to date" ,layout="1-page", code_folding=TRUE}
-library(knitr)
-include_graphics("images/experience.png")
-```
-
-Most recently, I have joined the [ISBLab](https://www.ncbs.res.in/faculty/shruthi) at NCBS under the guidance of Dr. Shruthi Viswanath. I have been working on the generating localised precision score for integrative models.
-
-I have worked on Computer Vision and deep learning for the last three years.
-During this time I have published multiple papers as well as contributed towards patents at SigTuple.
-
+Hi, I'm Nikhil Kasukurthi. I've started this blog to learn.
 
 contact: nikhil[dot]kasukurthi[at]gmail[dot]com
