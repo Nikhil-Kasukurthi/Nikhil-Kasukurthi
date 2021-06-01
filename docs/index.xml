@@ -7,14 +7,15 @@
     <description>Data Scientist III at SigTuple.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Learning to Rank in the era of transformers</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
       <link>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</link>
       <description>With the advent of advances in NLP, Ranking of search results is increasingly a NLP problem. This post will give an insight into basics as well as the most recent advances.</description>
       <guid>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</guid>
-      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://beta.rstudioconnect.com/content/11424/posts/ir_nls/distill-preview.png" medium="image" type="image/png" width="1626" height="879"/>
     </item>
   </channel>
 </rss>

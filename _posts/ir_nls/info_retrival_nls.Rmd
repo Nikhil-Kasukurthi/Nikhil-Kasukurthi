@@ -123,4 +123,30 @@ TODO
 ### DeText
 DeText is a flexible pipeline that was built to rank LinkedIn's user profiles, jobs and help FAQs based on search queries.
 
+```{r fig.cap="DeText Architecture", layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/detext-arch.png")
+```
+
+```{r fig.cap="DeText Inference Pipeline", layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/detext-inference.png")
+```
+
+### Graph-based multilingual product retrival in E-commerce search
+The amazon search ranking incorporates a Graph Neural Network in tandem with a transformer encoder.
+The transformer is trained with both the query and documents. 
+
+#### Training
+They train a DistillBERT with 6 layers and 768 hidden units.  
+
+```{r fig.cap="Architecture", layout="1-page", code_folding=TRUE}
+library(knitr)
+include_graphics("images/amazon-graph-ranking.png")
+```
+
+#### Inference
+During inference, similar to DSSM, they compute cosine similarity between the query embedding and document (product) embeddings.
+Then finding K-Nearest Neighbors of the query. (__check this__)
+
 ## Acknowledgments {.appendix}
