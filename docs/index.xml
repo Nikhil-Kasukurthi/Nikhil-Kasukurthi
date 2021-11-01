@@ -2,27 +2,30 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>WAWN</title>
-    <link>https://beta.rstudioconnect.com/content/11424/</link>
-    <atom:link href="https://beta.rstudioconnect.com/content/11424/index.xml" rel="self" type="application/rss+xml"/>
+    <link>https://wawn.io</link>
+    <atom:link href="https://wawn.io/index.xml" rel="self" type="application/rss+xml"/>
     <description>Exlpore.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Learning to Rank in the era of transformers</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
-      <link>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</link>
+      <link>https://wawn.io/posts/ir_nls</link>
       <description>With the advent of advances in NLP, Ranking of search results is increasingly a NLP problem. This post will give an insight into basics as well as the most recent advances.</description>
-      <guid>https://beta.rstudioconnect.com/content/11424/posts/ir_nls</guid>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://beta.rstudioconnect.com/content/11424/posts/ir_nls/distill-preview.png" medium="image" type="image/png" width="1626" height="879"/>
+      <category>NLP</category>
+      <category>Search Ranking</category>
+      <category>Deep Dive</category>
+      <guid>https://wawn.io/posts/ir_nls</guid>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://wawn.io/posts/ir_nls/images/introduction.gif" medium="image" type="image/gif"/>
     </item>
     <item>
       <title>Introduction to wawn.io</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
-      <link>https://beta.rstudioconnect.com/content/11424/posts/introduction</link>
+      <link>https://wawn.io/posts/introduction</link>
       <description>When and When Not</description>
-      <guid>https://beta.rstudioconnect.com/content/11424/posts/introduction</guid>
+      <guid>https://wawn.io/posts/introduction</guid>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -3,8 +3,13 @@ title: "WAWN"
 description: |
   Exlpore.
 output_dir: "docs"
-base_url: https://beta.rstudioconnect.com/content/11424/
+base_url: https://wawn.io
+theme: theme.css
 navbar:
+  search: true
+  logo:
+    image: images/Wawn_logo.png
+    href: https://wawn.io
   right:
     - text: "Home"
       href: index.html

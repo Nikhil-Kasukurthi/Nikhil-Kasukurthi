@@ -2,11 +2,14 @@
 title: "Learning to Rank in the era of transformers"
 description: |
   With the advent of advances in NLP, Ranking of search results is increasingly a NLP problem. This post will give an insight into basics as well as the most recent advances.
+preview: images/introduction.gif
+categories:
+  - NLP
+  - Search Ranking
+  - Deep Dive
 author:
   - name: Nikhil Kasukurthi
     url: https://example.com/norajones
-    affiliation: Udaan
-    affiliation_url: https://udaan.com
 date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
@@ -24,7 +27,7 @@ Throughout this post, we will be discussing this from the lens of e-commerce web
 In the figure, you can see it clearly, a user has a rough idea of the products they are looking for.
 This problem can be modeled in the following way.
 
-```{r fig.cap="Introduction" ,layout="1-page", code_folding=TRUE}
+```{r fig.cap="Introduction", layout="1-page", code_folding=TRUE}
 library(knitr)
 include_graphics("images/introduction.gif")
 ```
@@ -68,6 +71,7 @@ Two documents are taken in conjunction and their precedence is predicted.
 The above two approaches do not take into account the inter-document relationship, its assumed that all the documents are independent. 
 
 Listwise approaches are the closest to modeling the metrics that we had defined earlier.
+The entire group of documents are considered for ranking 
 
 ## Traditional Ranking appraoches
 
@@ -117,11 +121,13 @@ include_graphics("images/Dssm-arch.jpg")
 ```
 
 
-### DRRM
+### DRMM
 TODO 
 
 ### DeText
 DeText is a flexible pipeline that was built to rank LinkedIn's user profiles, jobs and help FAQs based on search queries.
+Through a custom trained bert - LiBert on LinkedIn, the raking is performed. 
+Unlike other approaches, DeText is capable of taking in multiple fields of entries. 
 
 ```{r fig.cap="DeText Architecture", layout="1-page", code_folding=TRUE}
 library(knitr)
