@@ -9,12 +9,12 @@
         "url": {}
       }
     ],
-    "date": "2021-11-16",
+    "date": "2024-06-15",
     "categories": [],
-    "contents": "\n\nIntroduction\nWhen a query is fired on Google, the ordering of these results is a key factor. This is known as ranking. Similarly, in case of uber, showing the relevant ride type (Normal, SUV, Lux) is key for customer conversion. And in case of e-commerce search engine like that of Amazon, ranking the results on every page become critical. Multiple objectives need to be satisfied in this case, be it the clicks on items, add-to-cart of items and eventually purchase. In social media networks like Twitter or Instagram, posts needs to be ranked to decide the order in which they are shown.\nIntuitively, the way to evaluate ranking systems would be to rank the item user clicks on first as the most relevant in case of e-commerce or else search engines. Drawing parallels, in social media networks, a post that user interacts with, through likes or clicks, could be considerd as most relevant and thus ranked higher.\nIn this post, the objective is to understand the methods to evaluate the ranking of results. It’s a secondary step to retrial.\n\n\n\n",
+    "contents": "\n\nIntroduction\nWhen a query is fired on Google, the ordering of these results is a key factor.\nThis is known as ranking.\nSimilarly, in case of uber, showing the relevant ride type (Normal, SUV, Lux) is key for customer conversion.\nAnd in case of e-commerce search engine like that of Amazon, ranking the results on every page is critical, for better conversion.\n\nIn social media networks like Twitter or Instagram, posts needs to be ranked to decide the order in which they are shown.\nIntuitively, as illustrated in /figure the way to evaluate ranking systems would be to rank the item user clicks on first as the most relevant in case of e-commerce or else search engines.\nDrawing parallels, in social media networks, a post that user interacts with, through likes or clicks, could be considered as most relevant and thus ranked higher.\nIn this post, the objective is to understand the methods to evaluate the ranking of results.\nIt’s a secondary step to retrial.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-16T08:33:34+05:30",
-    "input_file": "metrics_search_ranking.utf8.md"
+    "last_modified": "2024-06-15T11:00:11+05:30",
+    "input_file": "metrics_search_ranking.knit.md"
   },
   {
     "path": "posts/introduction/",
