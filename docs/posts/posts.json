@@ -21,6 +21,23 @@
     "input_file": "info_retrival_nls.knit.md"
   },
   {
+    "path": "posts/retrieval-with-es/",
+    "title": "Retrieval with ElasticSearch for LLMs",
+    "description": "The `R` in RAG is very critical, the current popular methods of embed docuemnts and compare with query are very expensive.",
+    "author": [
+      {
+        "name": "Nikhil Kasukurthi",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2024-06-15",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2024-06-15T11:17:50+05:30",
+    "input_file": "post.knit.md"
+  },
+  {
     "path": "posts/introduction/",
     "title": "Introduction to wawn.io",
     "description": "When and When Not",

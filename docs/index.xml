@@ -7,7 +7,7 @@
     <description>Exlpore.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Learning to Rank in the era of transformers</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
@@ -17,8 +17,16 @@
       <category>Search Ranking</category>
       <category>Deep Dive</category>
       <guid>https://wawn.io/posts/ir_nls</guid>
-      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <media:content url="https://wawn.io/posts/ir_nls/images/introduction.gif" medium="image" type="image/gif"/>
+    </item>
+    <item>
+      <title>Retrieval with ElasticSearch for LLMs</title>
+      <dc:creator>Nikhil Kasukurthi</dc:creator>
+      <link>https://wawn.io/posts/retrieval-with-es</link>
+      <description>The `R` in RAG is very critical, the current popular methods of embed docuemnts and compare with query are very expensive.</description>
+      <guid>https://wawn.io/posts/retrieval-with-es</guid>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introduction to wawn.io</title>
