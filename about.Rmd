@@ -1,9 +1,17 @@
 ---
-title: "About"
-description: |
- When and When Not 
+title: "Nikhil Kasukurthi"
+image: "tobi.jpg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/n_kasukurthi"
+  - label: GitHub
+    url: "https://github.com/nikhil-kasukurthi"
+  - label: Email
+    url: "mailto:nikhil.kasukurthi@gmail.com"
+output:
+  postcards::jolla
 ---
-
-Hi, I'm Nikhil Kasukurthi. I've started this blog to learn.
-
-contact: nikhil[dot]kasukurthi[at]gmail[dot]com
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.

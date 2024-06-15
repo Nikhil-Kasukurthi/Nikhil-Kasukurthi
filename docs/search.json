@@ -1,19 +1,11 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About",
-      "description": "When and When Not ",
-      "author": [],
-      "contents": "\nHi, I’m Nikhil Kasukurthi. I’ve started this blog to learn.\ncontact: nikhil[dot]kasukurthi[at]gmail[dot]com\n\n\n\n",
-      "last_modified": "2021-05-31T10:41:50+05:30"
-    },
-    {
       "path": "index.html",
       "title": "When and When Not",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-31T10:43:02+05:30"
+      "last_modified": "2021-06-05T23:39:28+05:30"
     }
   ],
   "collections": ["posts/posts.json"]
