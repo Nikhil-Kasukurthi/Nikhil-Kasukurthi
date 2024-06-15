@@ -1,0 +1,30 @@
+---
+title: "Measuring Ranking"
+description: |
+  The metrics for ranking through a code-first explanation.
+author:
+  - name: Nikhil Kasukurthi
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+<!--
+Search is one of the oldest and well researched fields in computer science.
+Every product eventually, needs search and catering to different facets of search requires a different metric to optimize for.
+Search results on a search engine like Google require the results based on the relevance to query. 
+-->
+## Introduction
+When a query is fired on Google, the ordering of these results is a key factor. 
+This is known as _ranking_.
+Similarly, in case of uber, showing the relevant ride type (Normal, SUV, Lux) is key for customer conversion. 
+And in case of e-commerce search engine like that of Amazon, ranking the results on every page is critical, for better conversion. 
+<!---
+Multiple objectives need to be satisfied in this case, be it the clicks on items, add-to-cart of items and eventually purchase.
+-->
+In social media networks like Twitter or Instagram, posts needs to be ranked to decide the order in which they are shown.
+
+Intuitively, as illustrated in /figure the way to evaluate ranking systems would be to rank the item user clicks on first as the most relevant in case of e-commerce or else search engines.
+Drawing parallels, in social media networks, a post that user interacts with, through likes or clicks, could be considered as most relevant and thus ranked higher.
+
+In this post, the objective is to understand the methods to evaluate the ranking of results. 
+It's a secondary step to retrial. 
+

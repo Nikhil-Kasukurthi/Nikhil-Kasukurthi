@@ -15,6 +15,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+date: "`r Sys.Date()`"
 output: distill::distill_article
 collections:
   posts:
