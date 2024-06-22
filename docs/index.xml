@@ -7,18 +7,22 @@
     <description>Exlpore.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Learning to Rank in the era of transformers</title>
+      <title>Structured LLM ouput through Pydantic</title>
       <dc:creator>Nikhil Kasukurthi</dc:creator>
-      <link>https://wawn.io/posts/ir_nls</link>
-      <description>With the advent of advances in NLP, Ranking of search results is increasingly a NLP problem. This post will give an insight into basics as well as the most recent advances.</description>
-      <category>NLP</category>
-      <category>Search Ranking</category>
-      <category>Deep Dive</category>
-      <guid>https://wawn.io/posts/ir_nls</guid>
-      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <media:content url="https://wawn.io/posts/ir_nls/images/introduction.gif" medium="image" type="image/gif"/>
+      <link>https://wawn.io/posts/tool_use_pydantic</link>
+      <description>Through tool use, generating structured output has become easier. All we need to do is specify the function schema in OpenAPI spec. Yes, this can be streamed too.</description>
+      <guid>https://wawn.io/posts/tool_use_pydantic</guid>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring Ranking</title>
+      <dc:creator>Nikhil Kasukurthi</dc:creator>
+      <link>https://wawn.io/posts/metrics-search-ranking</link>
+      <description>The metrics for ranking through a code-first explanation.</description>
+      <guid>https://wawn.io/posts/metrics-search-ranking</guid>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introduction to wawn.io</title>

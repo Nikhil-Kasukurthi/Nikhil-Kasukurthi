@@ -9,9 +9,35 @@ links:
   - label: Email
     url: "mailto:nikhil.kasukurthi@gmail.com"
 output:
-  postcards::jolla
+  postcards::trestles
 ---
+Ruminations of a confused data scientist, days when I feel like a datascientst but really love doing engineering and on other days data engineering.
  
-I am a classically trained data scientist living in the San Francisco Bay Area. 
-Currently I work on the Oculus team at Facebook. I love talking about baseball, 
-true crime podcasts, and causal inference.
+ This blog is about the intresting things I'm learning along with friends at work and otherwise. 
+ 
+ 
+## Experience
+ **Lead Data Scientist** |  Eka.care | Bangalore, India
+ 
+ (June'24 - Present)
+
+ **Senior Data Scientist** |  Eka.care | Bangalore, India
+ 
+ (Jan'22 - April'24)
+ 
+ **Data Scientist** |  Udaan | Bangalore, India
+ 
+ (May'21 - Dec'21)
+ 
+ 
+ **Data Scientist - III** | SigTuple | Bangalore, India
+ 
+ (May'18 - May'21)
+ 
+ 
+## Education
+
+**VIT University** | Vellore, India
+
+BTech Computer Science | 2014 - 2018
+

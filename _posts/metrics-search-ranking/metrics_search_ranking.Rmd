@@ -1,7 +1,7 @@
 ---
 title: "Measuring Ranking"
 description: |
-  The metrics for ranking through a code-first explanation.
+  
 author:
   - name: Nikhil Kasukurthi
 date: "`r Sys.Date()`"

@@ -1,0 +1,109 @@
+---
+title: "Structured LLM ouput through Pydantic"
+description: |
+  Through tool use, generating structured output has become easier. All we need to do is specify the function schema in OpenAPI spec. Yes, this can be streamed too. 
+author:
+  - name: Nikhil Kasukurthi
+    url: https://example.com/norajones
+    affiliation: Eka.care
+    affiliation_url: https://eka.care
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    highlight: espresso
+    highlight_downlit: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction 
+Have you tried generating reliable, structured output from LLMs? It's almost like giving instructions to a dog to fetch a ball.
+It takes a lot of tries and works occasionally.
+They do it once, the next time, they get distracted by a squirrel.
+
+Similarly, with LLMs you need to tweak your prompt repeatedly to get the make it the right instruction for the model to give the right output.
+Most LLM business use-cases beyond chat need structured output to either show information to the user or to insert it into a data store.
+
+You could see a lot of takes on twitter to get this done, my favorite being the `No Yapping` attached to the end of a prompt. 
+
+OpenAI approached this problem by function_calling API, where you can specify the schema of the output you want. They follow [_OpenAPI_](https://swagger.io/specification/) spec (not to be confused with OpenAI the compay) to define the schema. 
+One of the intended purposes of function_calling (now tool_use) is for the model to use a tool to solve a problem based on the input. Like using python interpreter for any math related questions or calling the a weather API to get real-time information. 
+
+Defining the OpenAPI schema is fairly straightforward for cases without complexity. 
+The moment you introduce nested objects and enums, it becomes a bit tricky.
+In python, through Pydantic, this becomes a lot easier. 
+
+Pydantic is a data validation library in Python, similar to `@dataclass` in python, we create Pydantic `BaseModel` to define the schema to store data to the object.
+It has good community support and is widely used in multiple projects. 
+
+> No, we will not using a wrapper library.
+
+To achieve this structured output, there also multiple other wrapper tools like Instructor. 
+However, in practice these wrappers usually abstract a lot of implementation that could be critical to know.
+Specially if they modify the prompt (I'm looking at you Langchain). 
+Not knowing how may tokens being used before calling the model is recipe for disaster.
+In the longer run, when the wrapper library has updates and they modify the prompt, it could lead to unexpected output in your application.
+
+## Setting the scene
+Let's say we are trying to extract MMLU benchmark scores from multiple papers in the arxiv dataset.
+On ArXiv, the latex submissions are also available. 
+
+```{python, eval=FALSE, echo=TRUE}
+from pydantic import BaseModel
+
+class WikipediaBio(BaseModel):
+    name: str
+    birth_date: str
+    birth_place: str
+    occupation: str
+    spouse: str
+    children: str
+    parents: str
+    website: str
+```
+
+
+```{r}
+library(DiagrammeR)
+mermaid(diagram = '
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts<br/>prevail...
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+')
+```
+
+Here, we have a simple schema for a Wikipedia bio. Along with a long news article, let's pass this schema to the model to fill it. 
+
+## A complicated Pydantic data class
+
+
+## Partial JSON validation to stream function call outputs
+The time for generation from an LLM API is significant, expecting a user to wait for a minute before they see any repsonse is not ideal.
+
+Pydantic has released support for validation [partial json](https://docs.pydantic.dev/latest/concepts/json/#partial-json-parsing).
+
+```python
+from pydantic_core import from_json
+partial_dog_json = """
+    {
+      "breed": "lab", 
+      "name": "fluffy", 
+      "friends": ["buddy", "spot", "rufus"], 
+      "age'""" # this is incomplete json
+dog_dict = from_json(partial_dog_json, allow_partial=True)
+print(dog_dict)
+
+#> {'breed': 'lab', 'name': 'fluffy', 'friends': ['buddy', 'spot', 'rufus']}
+```
+
+
